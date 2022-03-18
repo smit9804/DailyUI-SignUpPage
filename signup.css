@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+    height: 100vh;
+}
+
+#contentbox{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    color: #00b140;
+}
+
+input{
+    text-align: center;
+    font-weight: 600;
+}
+
+::-webkit-input-placeholder{
+    text-align: center;
+}
+
+:-moz-placeholder{
+    text-align: center;
+}
+
+input[type="submit"]{
+    width: 100%;
+    margin-top: 10%;
+}
+::selection {
+    color: lightblue;
+    background-color: #00b140;
+}
